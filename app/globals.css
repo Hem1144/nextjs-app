@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-ui {
+ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .link {
-  list-style: none;
+  list-style-type: none;
   text-decoration: none;
   margin: 10px;
 }
 
 h1 {
-  align-items: center;
+  text-align: center;
 }
